@@ -7,4 +7,7 @@ class Gate
   def enter(ticket)
   end
 
+  def exit(ticket)
+  end
+
 end
