@@ -5,6 +5,7 @@ class Gate
   end
 
   def enter(ticket)
+    ticket.stamp(@name)
   end
 
   def exit(ticket)
