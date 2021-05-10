@@ -3,6 +3,13 @@ require './lib/gate'
 require './lib/ticket'
 
 class GateTest < Minitest::Test
+
+  def setup
+    @umeda = Gate.new(:umeda)
+    @juso = Gate.new(:juso)
+    @mikuni = Gatre.new(:mikuni)
+  end
+
   def test_umeda_to_juso
     umeda = Gate.new(:umeda)
     juso = Gate.new(:juso)
