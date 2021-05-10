@@ -16,7 +16,7 @@ class GateTest < Minitest::Test
     mikuni = Gate.new(:mikuni)
 
     ticket = Ticket.new(150)
-    umeda.ebter(ticket)
+    umeda.enter(ticket)
     refute mikuni.exit(ticket)
   end
 
