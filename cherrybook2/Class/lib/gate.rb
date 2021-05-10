@@ -1,4 +1,6 @@
 class Gate
+  STATIONS = [:umeda, :juso, :mikuni]
+  FARES = [150, 190]
 
   def initialize(name)
     @name = name
