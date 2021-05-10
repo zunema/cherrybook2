@@ -11,6 +11,8 @@ class Gate
   end
 
   def exit(ticket)
+    fare = calc_fare(ticket)
+    fare <= ticket.fare
   end
 
   def calc_fare(ticket)
