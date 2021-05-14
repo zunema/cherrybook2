@@ -1,2 +1,4 @@
-class Product
+# 他のクラスを継承したクラスを作る
+
+class DVD < Product
 end
