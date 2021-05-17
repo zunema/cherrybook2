@@ -17,4 +17,6 @@ p prodct.price
 
 
 class DVD < Prodct
+  # nameとpriceはスーパークラスでattr_readerが設定されているので定義不要
+  attr_reader :running_time
 end
