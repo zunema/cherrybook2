@@ -28,3 +28,4 @@ end
 dvd = DVD.new('A great movie', 1000)
 p dvd.name
 p dvd.price
+
